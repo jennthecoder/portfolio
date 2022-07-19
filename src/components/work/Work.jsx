@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./Work.css";
 import Project from "../utils/project/Project";
 import uuid from "react-uuid";
