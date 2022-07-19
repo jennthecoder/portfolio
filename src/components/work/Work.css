@@ -1,0 +1,38 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.work .go_button_container {
+  display: none;
+}
+
+.work .portfolio_showcase {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+}
+.work div:hover > article {
+  opacity: 0.5;
+  background-color: #16161A ;
+}
+.work div:hover > article:hover {
+  opacity: 1.0;
+  z-index: 10;
+  background-color: #202022;
+}
+
+.work .go_button_container {
+  display: none;
+}
+
+@media (max-width: 993px) {
+  .work {
+    margin: 30px 0;
+  }
+
+  .work .go_button_container {
+    display: flex;
+  }
+}

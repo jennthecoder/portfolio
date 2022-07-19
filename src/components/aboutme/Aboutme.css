@@ -1,0 +1,9 @@
+.aboutme p {
+  color: #777778;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--normal-font);
+  line-height: 21px;
+  margin: 0;
+  line-height: 2;
+}
