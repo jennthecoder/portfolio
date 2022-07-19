@@ -1,4 +1,4 @@
-# Kadet's Portfolio
+# Portfolio
 
 This is the repository that contains code for my personal website built with react.js
 
